@@ -2,7 +2,9 @@
 
 namespace Sempro\PHPUnitPrettyPrinter\Tests;
 
-class PrinterTest extends \PHPUnit\Framework\TestCase
+use PHPUnit\Framework\TestCase;
+
+class PrinterTest extends TestCase
 {
     public function testFirstTestShouldPass()
     {
